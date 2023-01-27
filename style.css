@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    cursor: url("./images/nixonCursor.png"), pointer;
+}
+
+body{
+    background-image: url(./images/voteBackground.png);
+    background-size: 100%;
+}
+#mainArea{
+    display: flex;
+    background-color: #fdfaea;
+    margin: 3rem 18rem 0 18rem;
+    border: #000040 1rem solid;
+    border-radius: 10%;
+    justify-content: space-evenly;
+}
+.flexArea{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1rem;
+}
+
+#presidentImg{
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 10%;
+}
+#nixonButton, #johnsonButton{
+    width: 20rem;
+    height: 8.5rem;
+    margin: 1rem;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #00000000;
+    border: hidden;
+}
+#nixonButton{
+    background-image: url(./images/nixonButton.png);
+    cursor: url("./images/yesCursor.png"), pointer;
+}
+#johnsonButton {
+    background-image: url(./images/johnsonButton.png);
+    cursor: not-allowed;
+    display: block;
+}
